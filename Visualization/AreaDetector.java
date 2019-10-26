@@ -44,6 +44,8 @@ public class AreaDetector extends JPanel implements MouseListener, KeyListener {
         frame.add(this);
 
         net = new Network(2, 100, 70, 2);
+
+        this.setFocusable(true);
     }
 
     @Override
